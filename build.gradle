@@ -23,7 +23,7 @@ dependencies {
     runtime 'com.h2database:h2'
     runtime 'org.postgresql:postgresql'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.3.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.4.1'
     testImplementation 'org.testcontainers:junit-jupiter:1.10.7'
     testImplementation 'org.testcontainers:postgresql:1.10.7'
     testRuntime 'org.postgresql:postgresql'
