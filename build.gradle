@@ -2,12 +2,15 @@ plugins {
     id 'java'
     id 'org.springframework.boot' version '2.1.2.RELEASE'
     id 'io.spring.dependency-management' version '1.0.6.RELEASE'
+    id 'com.google.cloud.tools.jib' version '1.0.2'
 }
 
 group = 'com.bmuschko'
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 version = '1.0.0'
+
+jib.to.image = 'hippozheng/todo-webservice:2.0.0'
 
 repositories {
     jcenter()
